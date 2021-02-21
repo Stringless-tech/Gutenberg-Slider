@@ -1,0 +1,31 @@
+div.slide-image:not(.active)
+{
+	display:none;
+}
+div.slider__dots
+{
+	width:100%;
+	display:flex;
+	justify-content: center;
+	margin-top:2%;
+}
+a.slider__indicator
+{
+	float:left;
+	border-radius: 100px;
+	margin: 0 0.5em;
+	height: 1em;
+	width: 1em;
+	background-color:white;
+	border: 2px solid red;
+	cursor: pointer;
+}
+.wp-block-stingless-custom-slider
+{
+	max-width:100% !important;
+}
+a.clicked
+{
+	background-color:red;
+}
+

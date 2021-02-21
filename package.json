@@ -1,0 +1,16 @@
+{
+  "name": "gutenberg-slider",
+  "version": "1.0.0",
+  "description": "Custom gutenberg slider",
+  "main": "index.js",
+  "scripts": {
+    "build:scripts": "wp-scripts build",
+    "start:build": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^13.0.3"
+  }
+}
